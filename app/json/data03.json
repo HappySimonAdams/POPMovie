@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "name": "巴塞罗那",
+      "video": "http://cache.utovr.com/daf5a78d00d5489d95e9c943d73e9c30/L2_z2ag8tpzko6byent.mp4",
+      "lon": 2.16311,
+      "lat": 41.352452
+    },
+    {
+      "name": "威尼斯水城",
+      "video": "http://cache.utovr.com/0d9d7980adf04e038becf6bd4cc847dc/L2_lo99wqohwlk4d4s5.mp4",
+      "lon": 12.366711,
+      "lat": 45.376212
+    },
+    {
+      "name": "塞纳河畔",
+      "video": "http://cache.utovr.com/9be2d2d3299b4cd69a356acc6e4b8d05/L2_fwofo2rw6yh37iob.mp4",
+      "lon": 2.506048,
+      "lat": 48.67921
+    },
+    {
+      "name": "时尚之都·米兰",
+      "video": "http://cache.utovr.com/708fcae814a04061a505a9575c35880d/L2_p9mqodswcuonv25n.mp4",
+      "lon": 9.165869,
+      "lat": 45.482881
+    },
+    {
+      "name": "巴黎埃菲尔铁塔",
+      "video": "http://cache.utovr.com/1b0ee4e92a1f4acaa65e4db1e8e1eb08/L2_ivbo3ar3olai1ffz.mp4",
+      "lon": 2.347371,
+      "lat": 48.85321
+    },
+    {
+      "name": "松恩峡湾",
+      "video": "http://cache.utovr.com/s1ocew6odp7lyi555y/L2_bwptg693r20kcbn2.mp4",
+      "lon": 6.730527,
+      "lat": 61.151397
+    },
+    {
+      "name": "挪威天路",
+      "video": "http://cache.utovr.com/s12vrd568hlwayimb0/L2_dki2haujts4dr4zy.mp4",
+      "lon": 7.116804,
+      "lat": 60.83733
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+input::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+
+input::-moz-placeholder {
+    color: #FFFFFF;
+}
+
+input:-ms-input-placeholder {
+    color: #FFFFFF;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+

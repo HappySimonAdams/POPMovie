@@ -1,0 +1,277 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.drawCursor {
+    cursor: move;
+}
+
+/*============= common ===============*/
+
+#initContainer,
+#cesiumContainer,
+#threeContainer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #323232;
+}
+
+/*========== initContainer ==========*/
+
+#initContainer .container {
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#logo {
+    position: relative;
+    user-select: none;
+}
+
+#pop {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    pointer-events: none;
+}
+
+#movie {
+    position: absolute;
+    left: 42.8%;
+    top: 14.2%;
+    width: 14.5%;
+    pointer-events: none;
+    animation: rotateImg 3s linear infinite;
+}
+
+@-webkit-keyframes rotateImg {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#toolBox {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    user-select: none;
+}
+
+#toolBox img {
+    display: inline-block;
+    width: 14%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+/*========== cesiumContainer ==========*/
+
+#cesiumContainer {
+    display: none;
+}
+
+#cesiumContainer .close{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    margin-left: -23px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #FF5722;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 999;
+    user-select: none;
+}
+
+#searchBox {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    width: 300px;
+    margin-left: -150px;
+    z-index: 1000;
+}
+
+#location {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: #FF5722;
+}
+
+/*========== threeContainer ==========*/
+
+#threeContainer {
+    display: none;
+}
+
+#threeContainer .name {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    color: #ffffff;
+    background-color: #FF5722;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+#threeContainer .toolbar {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+    z-index: 999;
+    user-select: none;
+}
+
+#threeContainer .navigate {
+    float: left;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#threeContainer .navigate img {
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+}
+
+#threeContainer .close {
+    float: left;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #FF5722;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#threeContainer .mask {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#threeContainer .back {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background-color: #4885ed;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+#threeContainer .sliderCtrl {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -25px;
+    background-color: #4885ed;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+#threeContainer .sliderCtrl.left {
+    left: 0;
+    padding: 0 20px 0 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#threeContainer .sliderCtrl.right {
+    right: 0;
+    padding: 0 10px 0 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#threeContainer #loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    margin-top: -25px;
+    display: none;
+    z-index: 999;
+    pointer-events: none;
+}
+
+#threeContainer #loading img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#threeContainer .file {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+    cursor: pointer;
+    z-index: 999;
+}
+
+#threeContainer .file .fileBtn {
+    position: relative;
+    display: block;
+    background-color: #FF5722;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#threeContainer .file .fileBtn input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+}

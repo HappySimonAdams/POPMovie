@@ -1,0 +1,70 @@
+{
+    "data": [
+        {
+            "name": "长沙·橘子洲",
+            "video": "http://cache.utovr.com/54f3738acfd649c285a8b6b3d5f31042/L2_ieknhnfe9vy1yjdq.mp4",
+            "lon": 112.95627,
+            "lat": 28.196526
+        },
+        {
+            "name": "安徽·黄山",
+            "video": "http://cache.utovr.com/f9c8b6558cc84c6b8a70af6d89e72b6f/L2_1hlsar7hzpazqfz4.mp4",
+            "lon": 118.193977,
+            "lat": 30.097967
+        },
+        {
+            "name": "重庆·忠县",
+            "video": "http://cache.utovr.com/2f106762606f400b84bb4c0507dbf0dc/L2_zhbg97racihaj4qn.mp4",
+            "lon": 108.043388,
+            "lat": 30.305767
+        },
+        {
+            "name": "韩城·龙门",
+            "video": "http://cache.utovr.com/e9cc361b3c564639bcb461cf4a12de75/L2_gdby1rhp1sfxux9d.mp4",
+            "lon": 110.607234,
+            "lat": 35.665358
+        },
+        {
+            "name": "西藏·鲁朗小镇",
+            "video": "http://cache.utovr.com/3a93cee1d4c34afebec9acb859e540f2/L2_vvpynr5iprwex42a.mp4",
+            "lon": 94.747806,
+            "lat": 29.76381
+        },
+        {
+            "name": "苏州·天平山",
+            "video": "http://cache.utovr.com/596700200ef34a689fc1e8d0230a4378/L2_7ykqcsuqg4zttusu.mp4",
+            "lon": 120.510575,
+            "lat": 31.294466
+        },
+        {
+            "name": "黄果树瀑布",
+            "video": "http://cache.utovr.com/025f67bb54fb485e8bf5dc984dcf8dac/L2_zwmmnlph3ma73rvu.mp4",
+            "lon": 105.679142,
+            "lat": 25.985778
+        },
+        {
+            "name": "壶口瀑布",
+            "video": "http://cache.utovr.com/8a046e5db635421aa9a8ad97f7204cae/L2_zpygakrwkcplaxji.mp4",
+            "lon": 110.455439,
+            "lat": 36.15115
+        },
+        {
+            "name": "扎龙自然保护区",
+            "video": "http://cache.utovr.com/f88598cef3004f25bb5f6bd88e6c0adf/L2_smvocb3tbofbfcme.mp4",
+            "lon": 124.247733,
+            "lat": 47.202773
+        },
+        {
+            "name": "玉溪·抚仙湖",
+            "video": "http://cache.utovr.com/e7a422c2c8f2485a85d5b584eb8add3e/L2_vgs6e86yrtzjjrle.mp4",
+            "lon": 102.893145,
+            "lat": 24.484046
+        },
+        {
+            "name": "茶韵成佳VR",
+            "video": "http://cache.utovr.com/7e0de65f48a64ac0a3e975f880056d8e/L2_nki6mlafb1jgomwq.mp4",
+            "lon": 103.384892,
+            "lat": 30.181911
+        }
+    ]
+}
